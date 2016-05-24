@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="zaafranigabriel.recipy.Menu_Recipy"
+    android:background="#A1BCE0"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Recette"
+        android:id="@+id/AddCook"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Recette"
+        android:id="@+id/DeleteCook"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/AddCook"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/AddCook"
+        android:layout_alignEnd="@+id/AddCook" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carte"
+        android:id="@+id/DisplayMap"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/DeleteCook"
+        android:layout_alignEnd="@+id/DeleteCook" />
+</RelativeLayout>
