@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zaafranigabriel.recipy" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Accueil"
+            android:label="@string/title_activity_accueil" >
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Menu_Recipy"
+            android:label="@string/title_activity_menu__recipy" >
+        </activity>
+        <activity
+            android:name=".DisplayMap"
+            android:label="@string/title_activity_display_map" >
+        </activity>
+        <activity
+            android:name=".DeleteCook"
+            android:label="@string/title_activity_delete_cook" >
+        </activity>
+        <activity
+            android:name=".ListValue.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+    </application>
+
+</manifest>
