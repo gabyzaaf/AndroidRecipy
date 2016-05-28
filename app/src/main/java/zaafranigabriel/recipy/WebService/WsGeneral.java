@@ -118,7 +118,10 @@ public class WsGeneral extends AsyncTask<HashMap<String,String>,Void,String> {
             }
         }
         conn.disconnect();
+<<<<<<< HEAD
         Log.d("RESULTERR",buf.toString());
+=======
+>>>>>>> 14969a384279795f32002dad1598bcd3f123f060
         return buf.toString();
     }
 
