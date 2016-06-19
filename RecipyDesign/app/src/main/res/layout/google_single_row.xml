@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/googleiconsmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GoogleimageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Brown"
+        android:text="Large Text"
+        android:id="@+id/GoogleTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/GoogleimageView"
+        android:layout_toEndOf="@+id/GoogleimageView"
+        android:layout_alignBottom="@+id/GoogleimageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Brown"
+        android:text="This is Description"
+        android:id="@+id/GoogleContent"
+        android:layout_alignBottom="@+id/GoogleTitle"
+        android:layout_alignStart="@+id/GoogleTitle" />
+
+</RelativeLayout>

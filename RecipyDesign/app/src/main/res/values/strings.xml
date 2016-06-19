@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RecipyDesign</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_recipe">The recipe name</string>
+    <string name="content_recipe">The recipe content</string>
+    <string name="recipe_adress">The recipe adress</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_delete">Delete</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

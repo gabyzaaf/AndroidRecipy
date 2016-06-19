@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/maccaronicon"
+    >
+
+    <EditText
+        android:id="@+id/recipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Brown"
+        android:hint="@string/name_recipe"
+        android:textColorHint="@color/Brown"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/contentRecipe"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="@color/Brown"
+        android:hint="@string/content_recipe"
+        android:textColorHint="@color/Brown"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Brown"
+        android:hint="@string/recipe_adress"
+        android:textColorHint="@color/Brown"
+        android:layout_marginTop="190dp"
+        />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add"
+        android:layout_marginTop="240dp"
+        />
+
+</RelativeLayout>
